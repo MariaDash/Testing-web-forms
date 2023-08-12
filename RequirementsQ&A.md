@@ -20,14 +20,14 @@ Testing site: http://itcareer.pythonanywhere.com/
 + **Surname** everything as for  **Name** except the minimum of characters - 0
 + **Email field**
 18. **Q:** Is the email field filed according to the email standard? Read about email standards **A:** Not standartized
-19. **Q:** How many characters before @? min max **A:**
-20. **Q:** After @ to last point min max **A:**
-21. **Q:** Point to end **A:**
-22. **Q:** Valid characters up to the @ **A:**
-23. **Q:** Valid characters after the @ **A:**
-24. **Q:** Language for email **A:**
-25. **Q:** What symbols can be used **A:**
-26. **Q:** Is it possible to use special characters in a row **A:**
+19. **Q:** How many characters before @? min max **A:** Ma[=32, min=4
+20. **Q:** After @ to last point min max **A:** Max=32, min=4
+21. **Q:** From point to end **A:** Max=16, min =2
+22. **Q:** Valid characters up to the @ **A:** dot, hyphen, underline, digits
+23. **Q:** Valid characters after the @ **A:** dot, hyphen, digits
+24. **Q:** Language for email **A:** Latin
+25. **Q:** What sp. characters can be used after last dot**A:** Only letters
+26. **Q:** Is it possible to use special characters in a row **A:** No
 27. **Q:** Align margins on which side or center **A:**
 28. **Q:** character case for email **A:**
 + **Password field**
