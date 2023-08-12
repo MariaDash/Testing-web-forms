@@ -1,24 +1,25 @@
 # Requirements questions and answers
 Testing site: http://itcareer.pythonanywhere.com/ 
-1. **Q:** Required fields  **A:**
+1. **Q:** Required fields  **A:** Name, Email, Password
 + **Name**  
-3. **Q:** Maximum minimum number of characters **A:**
-4. **Q:** Case sensitive **A:**
-5. **Q:** Types of symbols **A:**
-6. **Q:** Can only be printed or can be copied from the clipboard **A:**
-7. **Q:** Spaces as a special character, spaces at the beginning and at the end of the line **A:**
-8. **Q:** Line break - special character? **A:**
-9. **Q:** Must not start and end with a special character? **A:**
-10. **Q:** Can I use two special characters in a row? **A:**
-11. **Q:** Requirements for a placeholder, the presence of a placeholder **A:**
-12. **Q:** Language to fill in the field **A:**
-13. **Q:** What is the validation practice? Appearance of hints, red frame **A:**
-14. **Q:** At what point does the validation work, when the focus is removed from the field or when you click on the 'Submit' button **A:**
-15. **Q:** How 'Tab' should work, support for 'Shift+Tab' **A:**
+2. **Q:** Maximum minimum number of characters **A:** Max=64, min=4
+3. **Q:** Case sensitive **A:**  No
+4. **Q:** Case vary? **A:** Can be uppercase, can be lowercase
+5. **Q:** Types of special characters **A:** space, hyphen, single quotes
+6. **Q:** Can only be printed or can be copied from the clipboard **A:** Can be printed, can be copy-pasted
+7. **Q:** Spaces as a special character, spaces at the beginning and at the end of the line **A:** As cpesial character space can be used, but not at the beginning and not in the end
+8. **Q:** Line break - special character? **A:** No
+9. **Q:** Must not start and end with a special character? **A:** Yes
+10. **Q:** Can I use two special characters in a row? **A:** No
+11. **Q:** Requirements for a placeholder, the presence of a placeholder **A:** Presence - yes, no special characters at the end
+12. **Q:** Language to fill in the field **A:** Latin 
+13. **Q:** What is the validation practice? **A:** Appearance of hints, red frame 
+14. **Q:** At what point does the validation work, when the focus is removed from the field or when you click on the 'Submit' button **A:** When you push 'submit'
+15. **Q:** 'Tab'  workS? support for 'Shift+Tab' **A:** Yes, yes
 16. **Q:** How should the field react to the excess of characters (do not allow printing, or give, but then give an error) **A:**
 + **Surname** everything as for  **Name** except the minimum of characters - 0
 + **Email field**
-18. **Q:** Is the email field filed according to the email standard? Read about email standards **A:**
+18. **Q:** Is the email field filed according to the email standard? Read about email standards **A:** Not standartized
 19. **Q:** How many characters before @? min max **A:**
 20. **Q:** After @ to last point min max **A:**
 21. **Q:** Point to end **A:**
