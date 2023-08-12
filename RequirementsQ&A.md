@@ -1,8 +1,8 @@
 # Requirements questions and answers
 Testing site: http://itcareer.pythonanywhere.com/ 
 1. **Q:** Required fields  **A:**
-**Name, Surname**:
-3.**Q:** Maximum minimum number of characters **A:**
++ **Name, Surname**  
+3. **Q:** Maximum minimum number of characters **A:**
 4. **Q:** Case sensitive **A:**
 5. **Q:** Types of symbols **A:**
 6. **Q:** Can only be printed or can be copied from the clipboard **A:**
@@ -16,7 +16,7 @@ Testing site: http://itcareer.pythonanywhere.com/
 14. **Q:** At what point does the validation work, when the focus is removed from the field or when you click on the submit button **A:**
 15. **Q:** How tab should work, support for shift tab **A:**
 16. **Q:** How should the field react to the excess of characters (do not allow printing, or give, but then give an error) **A:**
-**Email field:**
++ **Email field**
 18. **Q:** Is the email field filed according to the email standard? Read about email standards **A:**
 19. **Q:** How many characters before a dog? min max **A:**
 20. **Q:** After pawl to last point min max **A:**
@@ -28,7 +28,7 @@ Testing site: http://itcareer.pythonanywhere.com/
 26. **Q:** is it possible to use special characters in a row **A:**
 27. **Q:** align margins on which side or center **A:**
 28. **Q:** register for email **A:**
-**Password field**:
++ **Password field**
 30. **Q:** Max min number of characters **A:**
 31. **Q:** Types of characters possible **A:**
 32. **Q:** Filling rules: one number, one letter, one special character, 1 uppercase **A:**
