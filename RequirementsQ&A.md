@@ -43,3 +43,4 @@ Testing site: http://itcareer.pythonanywhere.com/
 38. **Q:** If an error message occurs, should the fields be erased or remain filled in? **A:** Should remain filled in
 39. **Q:** If all the fields are filled in, the submit is not clicked, the page is refreshed, should the data remain? **A:** data shoul remain
 40. **Q:** How errors are displayed in the error message: one at a time or all at once if there are several **A:** message one at a time in order asc
+41. **Q:** Password cannot be copied from password field, but it can be copy from anothe place and pasted into password field **A:** Yes, yes
