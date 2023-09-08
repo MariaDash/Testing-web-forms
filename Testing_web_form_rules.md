@@ -1,4 +1,4 @@
-# Testing internet forms
+# Testing Web forms
 
 *Start with positive testing first (* Start with Happy Path testing first. No other tests until we make sure that an instance of a completed form passes)
 
