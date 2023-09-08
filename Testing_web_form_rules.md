@@ -15,7 +15,7 @@
 + values offered in the list to be complete (compare with similar services)
 + make sure “Other”/”None”/”Less than”/”Over” is present when applicable
 + negative test case - assign nothing - get the error message
-### 5. Default Button Assignment (дефолтная кнопка - подсвечена и при неактивном и не выбранном поле подсвечивается  она нажимается при нажатии Enter если она действительно нужна то проверить, работает ли она).
+### 5. Default Button Assignment (Default button  is highlighted  if the field is inactive. It is chosen when push [Enter] button. If it is needed, test that it works properly.) 
 + make sure there is one if it makes sense at all
 + make sure the choice of default button is not conflicting with anything
 + the choice should be consistent from form to form in the application if it has multiple forms
@@ -32,14 +32,14 @@
 + Date field needs validation for month (01-12), day (01-31), year (1900-current)
 + Time needs validation for minutes (00-59), hours (0-23), seconds (0-59)
 ### 8. Data input rules
-+ use lists whenever possible versus text boxes ( лучше использовать выпадающие листы и из них выбирать, чем вписывать данные в текстовое поле, так меньше ошибок и время меньше тратится на заполнение)
-+ calculate rather then ask for input ( for example: calculate country by ZIP запрашивается не название города, где живете, а его индекс, чтобы не ошибиться в написании города)
++ use lists whenever possible versus text boxes ( you should use dropdown lists and choose from it neather then input data in text field to minimize mistakes)
++ calculate rather then ask for input ( for example: calculate country by ZIP instead of country name to minimize mistakes)
 + functionality/validation ( например печатаешь имя с маленькой буквы переходишь на др строку и оно становится с большой буквы- это функциональность поля, в поле email она работать не должна, у каждого поля есть своя функциональность)
 ### 9. Exception handling 
 + messaging
 + data loss (если вписываешь данные, переходишь ниже или на другую вкладку и вписанные данные теряются)
 ### 10. Error/warning messages
-MESSAGES:
+Messages:
 - Error message   (points to the problem, user cannot proceed
 - Warning Message (there is a problem, user is able to proceed)
 - Notification messages (no problem, just informing user of some aspects of application work)
