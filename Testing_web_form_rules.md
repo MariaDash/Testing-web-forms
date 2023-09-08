@@ -28,13 +28,13 @@
 + Zip code (digits only, 5 digits only)
 + Phone number: no letters, no special characters (possible exceptions: dash, round brackets, dot, space) 10 digits, 3 text fields for the phone number, two fields for three digits and one for four digits.
 + Email (accept letters, digits, some sp. characters - @ . - _)
-+ are wild card accepted? Си́мвол-джо́кер (си́мвол подстано́вки) https://en.wikipedia.org/wiki/Wildcard_character
++ are wild card accepted? (https://en.wikipedia.org/wiki/Wildcard_character)
 + Date field needs validation for month (01-12), day (01-31), year (1900-current)
 + Time needs validation for minutes (00-59), hours (0-23), seconds (0-59)
 ### 8. Data input rules
 + use lists whenever possible versus text boxes ( you should use dropdown lists and choose from it neather then input data in text field to minimize mistakes)
 + calculate rather then ask for input ( for example: calculate country by ZIP instead of country name to minimize mistakes)
-+ functionality/validation ( например печатаешь имя с маленькой буквы переходишь на др строку и оно становится с большой буквы- это функциональность поля, в поле email она работать не должна, у каждого поля есть своя функциональность)
++ functionality/validation ( ex.: type name in lower case, go to another line, and the name must be displayed with first letter in upper case - this is the functionality of the field. And for [email] field this functionality mustn't work.)
 ### 9. Exception handling 
 + messaging
 + data loss (если вписываешь данные, переходишь ниже или на другую вкладку и вписанные данные теряются)
