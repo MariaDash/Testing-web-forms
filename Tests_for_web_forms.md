@@ -39,7 +39,22 @@
 |35| Surname valid input 2 sp.ch.|Type O'Hara-Butler. Push submit.|No error message|
 |36| Surname invalid input space before Surname. Push submit.|Type  Dash|Error message|
 |37| Surname invalid input space after Surname. Push submit.|Type Dash |Error message|
-|39| Surname invalid input sp.ch.|Type Dash--Deen. Push submit. |Error message|
-|40| Surname valid input placeholder|Left field empty. Push submit.|Placeholder title displayed. No sp.ch. at the end|
-|41| Surname invalid input language|Type Дашкова. Push submit.|Error message|
-|42| Surname invalid input |Left empty. Push submit.|Error message with red background|
+|38| Surname invalid input sp.ch.|Type Dash--Deen. Push submit. |Error message|
+|39| Surname valid input placeholder|Left field empty. Push submit.|Placeholder title displayed. No sp.ch. at the end|
+|40| Surname invalid input language|Type Дашкова. Push submit.|Error message|
+|41| Surname invalid input |Left empty. Push submit.|Error message with red background|
+|42| Email valid input before @ |Type catycatycatycaty@gmail.com. Push submit.|No error message|
+|43| Email valid input before @ |Type caty@gmail.com. Push submit.|No error message|
+|44| Email valid input before @ |Type catycatycatycatycatycatycatycaty@gmail.com. Push submit.|No error message|
+|45| Email invalid input before @ |Type cat@gmail.com. Push submit.|Error message|
+|46| Email invalid input before @ |Type catycatycatycatycatycatycatycatyc@gmail.com. Push submit.|Error message|
+|47| Email valid input after @ before dot |Type catycatycatycaty@gmailgmailgmailgmail.com. Push submit.|No error message|
+|48| Email valid input after @ before dot |Type catycatycatycaty@mail.com. Push submit.|No error message|
+|49| Email valid input after @ before dot |Type catycatycatycaty@gmailgmailgmailgmailgmailgmailgm.com. Push submit.|No error message|
+|50| Email invalid input after @ before dot|Type catycatycatycaty@gma.com. Push submit.|Error message|
+|51| Email invalid input after @ before dot |Type catycatycatycaty@gmailgmailgmailgmailgmailgmailgma.com. Push submit.|Error message|
+|52| Email valid input from dot to end |Type catycatycatycaty@gmailgmail.com. Push submit.|No error message|
+|48| Email valid input from dot to end |Type catycatycatycaty@mail.com. Push submit.|No error message|
+|49| Email valid input from dot to end |Type catycatycatycaty@gmailgmailgmailgmailgmailgmailgm.com. Push submit.|No error message|
+|50| Email invalid input from dot to end|Type catycatycatycaty@gma.com. Push submit.|Error message|
+|51| Email invalid input from dot to end |Type catycatycatycaty@gmailgmailgmailgmailgmailgmailgma.com. Push submit.|Error message|
