@@ -59,4 +59,10 @@
 |55| Email invalid input from dot to end|Type catycatycatycaty@gma.c. Push submit.|Error message|
 |56| Email invalid input from dot to end |Type catycatycatycaty@gmailgmailgmailgmailgmailgmailgma.comcomcomcomcomaa. Push submit.|Error message|
 |57| Email valid input max number of ch. |Type catycatycatycatycatycatycatycaty@gmailgmailgmailgmailgmailgmailgm.comcomcomcomcoma. Push submit.|No error message|
-23:
+|58| Email valid input before @ + sp.ch. |Type caty.catycatycaty@gmail.com. Push submit.|No error message|
+|59| Email valid input before @ + sp.ch. |Type caty-catycatycaty@gmail.com. Push submit.|No error message|
+|60| Email valid input before @ + sp.ch. |Type caty_catycatycaty@gmail.com. Push submit.|No error message|
+|61| Email valid input before @ + sp.ch. |Type catycaty7catycaty@gmail.com. Push submit.|No error message|
+|62| Email valid input before @ + sp.ch. |Type caty%catycatycaty@gmail.com. Push submit.|No error message|
+|63| Email valid input before @ + sp.ch. |Type caty♣catycatycaty@gmail.com. Push submit.|No error message|
+24
