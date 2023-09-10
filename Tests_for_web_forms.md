@@ -8,7 +8,7 @@
 |4| Name valid input length|Type 30 letters. Push submit.|No error message|
 |5| Name valid input length|Type 4 letters. Push submit.|No error message|
 |6| Name valid input length|Type 64 letters. Push submit.|No error message|
-|7| Name invalid input length|Type 3 letters. Push submit.|Error message: name must be at least 4 characters||
+|7| Name invalid input length|Type 3 letters. Push submit.|Error message: name must be at least 4 characters|
 |8| Name invalid input length|Type 65 letters. Push submit.|Error message|
 |9| Name valid input case|Type Masha. Push submit.|No error message|
 |10| Name valid input sp.ch.|Type Masha D. Push submit.|No error message|
@@ -63,6 +63,17 @@
 |59| Email valid input before @ + sp.ch. |Type caty-catycatycaty@gmail.com. Push submit.|No error message|
 |60| Email valid input before @ + sp.ch. |Type caty_catycatycaty@gmail.com. Push submit.|No error message|
 |61| Email valid input before @ + sp.ch. |Type catycaty7catycaty@gmail.com. Push submit.|No error message|
-|62| Email valid input before @ + sp.ch. |Type caty%catycatycaty@gmail.com. Push submit.|No error message|
-|63| Email valid input before @ + sp.ch. |Type caty♣catycatycaty@gmail.com. Push submit.|No error message|
-24
+|62| Email invalid input before @ + sp.ch. |Type caty%catycatycaty@gmail.com. Push submit.|Error message|
+|63| Email invalid input before @ + sp.ch. |Type caty♣catycatycaty@gmail.com. Push submit.|Error message|
+|64| Email valid input after @ + sp.ch. |Type catycatycatycaty@g.mail.com. Push submit.|No error message|
+|65| Email valid input after @ + sp.ch. |Type catycatycatycaty@g-mail.com. Push submit.|No error message|
+|66| Email valid input after @ + sp.ch. |Type catycatycatycaty@g7mail.com. Push submit.|No error message|
+|67| Email invalid input after @ + sp.ch. |Type catycatycatycaty@g%mail.com. Push submit.|Error message|
+|68| Email invalid input after @ + sp.ch. |Type catycatycatycaty@g♣mail.com. Push submit.|Error message|
+|69| Email invalid Cyrillic |Type catycatycatycatт@gmail.com. Push submit.|Error message|
+|70| Email invalid input after . sp.ch. |Type catycatycatycaty@gmail.%om. Push submit.|Error message|
+|71| Email invalid input after . digit |Type catycatycatycaty@g%mail.4om. Push submit.|Error message|
+|72| Email invalid input sp.ch. in a row |Type caty--catycatycaty@g%mail.4om. Push submit.|Error message|
+|73| Email content alignment |Type catycatycatycaty@gmail.com. Push submit.|Alignment to the left side|
+|74| Email valid input upper case |Type Catycatycatycaty@g%mail.4om. Push submit.|No error message|
+30
