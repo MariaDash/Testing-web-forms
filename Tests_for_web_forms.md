@@ -72,8 +72,8 @@
 |68| Email invalid input after @ + sp.ch. |Type catycatycatycaty@g♣mail.com. Push submit.|Error message|
 |69| Email invalid Cyrillic |Type catycatycatycatт@gmail.com. Push submit.|Error message|
 |70| Email invalid input after . sp.ch. |Type catycatycatycaty@gmail.%om. Push submit.|Error message|
-|71| Email invalid input after . digit |Type catycatycatycaty@g%mail.4om. Push submit.|Error message|
-|72| Email invalid input sp.ch. in a row |Type caty--catycatycaty@g%mail.4om. Push submit.|Error message|
+|71| Email invalid input after . digit |Type catycatycatycaty@gmail.4om. Push submit.|Error message|
+|72| Email invalid input sp.ch. in a row |Type caty--catycatycaty@gmail.com. Push submit.|Error message|
 |73| Email content alignment |Type catycatycatycaty@gmail.com. Push submit.|Alignment to the left side|
-|74| Email valid input upper case |Type Catycatycatycaty@g%mail.4om. Push submit.|No error message|
+|74| Email valid input upper case |Type Catycatycatycaty@gmail.com. Push submit.|No error message|
 30
