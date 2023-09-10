@@ -21,7 +21,7 @@
 |17| Name invalid input space after Name. Push submit.|Type Masha D |Error message|
 |18| Name invalid input sp.ch.|Type Masha--D. Push submit. |Error message|
 |19| Name valid input placeholder|Left field empty. Push submit.|Placeholder title displayed. No sp.ch. at the end|
-|20| Name invalid input language|Type Маша. Push submit.|Error message|
+|20| Name invalid input language|Type Masшa. Push submit.|Error message|
 |21| Name invalid input |Left empty. Push submit.|Error message with red background|
 |22|Navigation with Tab button|Click on the field. Push Tab|Moving mouse pointer to next line down|
 |23|Navigation with Shift+Tab buttons|Click on the field. Push Shift+Tab combination|Moving mouse pointer to the line up|
@@ -41,7 +41,7 @@
 |37| Surname invalid input space after Surname. Push submit.|Type Dash |Error message|
 |38| Surname invalid input sp.ch.|Type Dash--Deen. Push submit. |Error message|
 |39| Surname valid input placeholder|Left field empty. Push submit.|Placeholder title displayed. No sp.ch. at the end|
-|40| Surname invalid input language|Type Дашкова. Push submit.|Error message|
+|40| Surname invalid input language|Type Дashkova. Push submit.|Error message|
 |41| Surname invalid input |Left empty. Push submit.|Error message with red background|
 |42| Email valid input before @ |Type catycatycatycaty@gmail.com. Push submit.|No error message|
 |43| Email valid input before @ |Type caty@gmail.com. Push submit.|No error message|
