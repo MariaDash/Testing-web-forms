@@ -17,8 +17,8 @@
 |13| [Name] field invalid input sp.ch.|Type 'Masha%'. Push [Submit] button.|Error message|
 |14| [Name] field invalid input emoji|Type 'Masha♣'. Push [Submit] button.|Error message|
 |15| [Name] field valid input paste|Paste 'Masha'D'. Push [Submit] button.|No error message|
-|16| [Name] field invalid input space before [Name] field.| Type ' MashaD'. Push [Submit] button.|Error message|
-|17| [Name] field invalid input space after [Name] field. |Type 'MashaD '. Push [Submit] button.|Error message|
+|16| [Name] field invalid input space before Name.| Type ' MashaD'. Push [Submit] button.|Error message|
+|17| [Name] field invalid input space after Name. |Type 'MashaD '. Push [Submit] button.|Error message|
 |18| [Name] field invalid input sp.ch.|Type 'Masha--D'. Push [Submit] button. |Error message|
 |19| [Name] field valid input placeholder|Left field empty. Push [Submit] button.|Placeholder title displayed. No sp.ch. at the end|
 |20| [Name] field invalid input language|Type 'Masшa'. Push [Submit] button.|Error message|
@@ -36,9 +36,9 @@
 |32| [Surname] field invalid input sp.ch.|Type 'Dash%'. Push [Submit] button.|Error message|
 |33| [Surname] field invalid input emoji|Type 'Dash♣'. Push [Submit] button.|Error message|
 |34| [Surname] field valid input paste|Paste 'O'Hara'. Push [Submit] button.|No error message|
-|35| [Surname] field valid input 2 sp.ch.|Type 'O'Hara-Butle'r. Push [Submit] button.|No error message|
-|36| [Surname] field invalid input space before [Surname] field. Push [Submit] button.|Type  Dash|Error message|
-|37| [Surname] field invalid input space after [Surname] field. Push [Submit] button.|Type Dash |Error message|
+|35| [Surname] field valid input 2 sp.ch.|Type 'O'Hara-Butler'. Push [Submit] button.|No error message|
+|36| [Surname] field invalid input space before Surname. |Type ' Dash'. Push [Submit] button.|Error message|
+|37| [Surname] field invalid input space after Surname. |Type 'Dash '. Push [Submit] button. |Error message|
 |38| [Surname] field invalid input sp.ch.|Type 'Dash--Deen'. Push [Submit] button. |Error message|
 |39| [Surname] field valid input placeholder|Left field empty. Push [Submit] button.|Placeholder title displayed. No sp.ch. at the end|
 |40| [Surname] field invalid input language|Type 'Дashkova'. Push [Submit] button.|Error message|
@@ -77,7 +77,7 @@
 |73| [Email] field content alignment |Type 'catycatycatycaty@gmail.com'. Push [Submit] button.|Alignment to the left side|
 |74| [Email] field valid input upper case |Type 'Catycatycatycaty@gmail.com'. Push [Submit] button.|No error message|
 |75| [Password] field valid input length|Type '12345678910Abc-'. Push [Submit] button.|No error message|
-|76| [Password] field valid input length |Type'1234Abc-'. Push [Submit] button.|No error message|
+|76| [Password] field valid input length |Type '1234Abc-'. Push [Submit] button.|No error message|
 |77| [Password] field valid input length|Type '123456789012345678901234567890A-'. Push [Submit] button.|No error message|
 |78| [Password] field valid input hide with bullets|Type anything.|Password is hidden with bullets|
 |79| [Password] field invalid input length|Type '123Abc-'. Push [Submit] button.|Error message|
