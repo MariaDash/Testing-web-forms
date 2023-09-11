@@ -76,4 +76,15 @@
 |72| Email invalid input sp.ch. in a row |Type caty--catycatycaty@gmail.com. Push submit.|Error message|
 |73| Email content alignment |Type catycatycatycaty@gmail.com. Push submit.|Alignment to the left side|
 |74| Email valid input upper case |Type Catycatycatycaty@gmail.com. Push submit.|No error message|
-30
+|75| Password valid input length|Type 12345678910Abc-. Push submit.|No error message|
+|76| Password valid input length |Type 1234Abc-. Push submit.|No error message|
+|77| Password valid input length|Type 123456789012345678901234567890A-. Push submit.|No error message|
+|76| Password invalid input length|Type 123Abc-. Push submit.|Error message|
+|77| Password invalid input length|Type 123456789012345678901234567890Ab-. Push submit.|Error message|
+|78| Password valid input length|Type 12345678910Abc. . Push submit.|No error message|
+|79| Password valid input length|Type 12345678910Abc_. Push submit.|No error message|
+|80| Password valid input length|Type 12345678910Abc%. Push submit.|No error message|
+|81| Password valid input length|Type 12345678910Abc♣. Push submit.|No error message|
+|81| Password valid input length|Type 12345678910Abc♣. Push submit.|No error message|
+
+
