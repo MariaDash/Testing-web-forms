@@ -17,8 +17,8 @@
 |13| [Name] field invalid input sp.ch.|Type 'Masha%'. Push [Submit] button.|Error message|
 |14| [Name] field invalid input emoji|Type 'Masha♣'. Push [Submit] button.|Error message|
 |15| [Name] field valid input paste|Paste 'Masha'D'. Push [Submit] button.|No error message|
-|16| [Name] field invalid input space before [Name] field. Push [Submit] button.|Type  MashaD|Error message|
-|17| [Name] field invalid input space after [Name] field. Push [Submit] button.|Type Masha D |Error message|
+|16| [Name] field invalid input space before [Name] field.| Type ' MashaD'. Push [Submit] button.|Error message|
+|17| [Name] field invalid input space after [Name] field. |Type 'MashaD '. Push [Submit] button.|Error message|
 |18| [Name] field invalid input sp.ch.|Type 'Masha--D'. Push [Submit] button. |Error message|
 |19| [Name] field valid input placeholder|Left field empty. Push [Submit] button.|Placeholder title displayed. No sp.ch. at the end|
 |20| [Name] field invalid input language|Type 'Masшa'. Push [Submit] button.|Error message|
