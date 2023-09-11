@@ -76,23 +76,23 @@
 |72| [Email] field invalid input sp.ch. 2 in a row |Type 'caty--catycatycaty@gmail.com'. Push [Submit] button.|Error message|
 |73| [Email] field content alignment |Type 'catycatycatycaty@gmail.com'. Push [Submit] button.|Alignment to the left side|
 |74| [Email] field valid input upper case |Type 'Catycatycatycaty@gmail.com'. Push [Submit] button.|No error message|
-|75| [Password] field valid input length|Type '12345678910Abc-'. Push [Submit] button.|No error message|
-|76| [Password] field valid input length |Type '1234Abc-'. Push [Submit] button.|No error message|
-|77| [Password] field valid input length|Type '123456789012345678901234567890A-'. Push [Submit] button.|No error message|
+|75| [Password] field valid input length 15 ch|Type '12345678910Abc-'. Push [Submit] button.|No error message|
+|76| [Password] field valid input length 8 ch|Type '1234Abc-'. Push [Submit] button.|No error message|
+|77| [Password] field valid input length 32 ch|Type '123456789012345678901234567890A-'. Push [Submit] button.|No error message|
 |78| [Password] field valid input hide with bullets|Type anything.|Password is hidden with bullets|
-|79| [Password] field invalid input length|Type '123Abc-'. Push [Submit] button.|Error message|
-|80| [Password] field invalid input length|Type '123456789012345678901234567890Ab-'. Push [Submit] button.|Error message|
-|81| [Password] field valid input length|Type '12345678910Abc.' . Push [Submit] button.|No error message|
-|82| [Password] field valid input length|Type '12345678910Abc_'. Push [Submit] button.|No error message|
-|83| [Password] field valid input length|Type '12345678910Abc%'. Push [Submit] button.|Error message|
-|84| [Password] field valid input length|Type '12345678910Abc♣'. Push [Submit] button.|Error message|
+|79| [Password] field invalid input length 7 ch|Type '123Abc-'. Push [Submit] button.|Error message|
+|80| [Password] field invalid input length 33 ch|Type '123456789012345678901234567890Ab-'. Push [Submit] button.|Error message|
+|81| [Password] field valid input dot|Type '12345678910Abc.' . Push [Submit] button.|No error message|
+|82| [Password] field valid input underline|Type '12345678910Abc_'. Push [Submit] button.|No error message|
+|83| [Password] field invalid input %|Type '12345678910Abc%'. Push [Submit] button.|Error message|
+|84| [Password] field invalid input emoji|Type '12345678910Abc♣'. Push [Submit] button.|Error message|
 |85| [Password] field copy|Type anything in the field. Copy data you typed.|Can not copy data in the field|
 |86| [Password] field valid input paste|Paste any data in the field.|User is enable to paste data|
 |87| Refresh page check|All fields filled in. Do not push [Submit] button. Refresh page|Data remained in the fields|
-|88| Error messages|Type invalid data in all fields. Push [Submit] button.|One error message is displayed at a time for the first field with invalid data|
-|89| Error messages|Correct data in the first field to meet requirements. Push [Submit] button.|Error message is displayed for the second field with invalid data|
-|90| Error messages|Type invalid data in [Name] field. Push [Submit] button.|Error message. No data erased in the field|
-|91| Error messages|Type invalid data in [Surname] field. Push [Submit] button.|Error message. No data erased in the field|
-|92| Error messages|Type invalid data in [Email] field. Push [Submit] button.|Error message. No data erased in the field|
-|93| Error messages|Type invalid data in [Password] field. Push [Submit] button.|Error message. No data erased in the field|
+|88| Error messages 1|Type invalid data in all fields. Push [Submit] button.|One error message is displayed at a time for the first field with invalid data|
+|89| Error messages 2|Correct data in the first field to meet requirements. Push [Submit] button.|Error message is displayed for the second field with invalid data|
+|90| Error messages Name|Type invalid data in [Name] field. Push [Submit] button.|Error message. No data erased in the field|
+|91| Error messages Surname|Type invalid data in [Surname] field. Push [Submit] button.|Error message. No data erased in the field|
+|92| Error messages Email|Type invalid data in [Email] field. Push [Submit] button.|Error message. No data erased in the field|
+|93| Error messages Password|Type invalid data in [Password] field. Push [Submit] button.|Error message. No data erased in the field|
 
