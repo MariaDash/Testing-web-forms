@@ -79,12 +79,13 @@
 |75| Password valid input length|Type 12345678910Abc-. Push submit.|No error message|
 |76| Password valid input length |Type 1234Abc-. Push submit.|No error message|
 |77| Password valid input length|Type 123456789012345678901234567890A-. Push submit.|No error message|
-|76| Password invalid input length|Type 123Abc-. Push submit.|Error message|
-|77| Password invalid input length|Type 123456789012345678901234567890Ab-. Push submit.|Error message|
-|78| Password valid input length|Type 12345678910Abc. . Push submit.|No error message|
-|79| Password valid input length|Type 12345678910Abc_. Push submit.|No error message|
-|80| Password valid input length|Type 12345678910Abc%. Push submit.|No error message|
-|81| Password valid input length|Type 12345678910Abc♣. Push submit.|No error message|
-|81| Password valid input length|Type 12345678910Abc♣. Push submit.|No error message|
+|78| Password valid input hide with bullets|Type anything.|Password is hidden with bullets|
+|79| Password invalid input length|Type 123Abc-. Push submit.|Error message|
+|80| Password invalid input length|Type 123456789012345678901234567890Ab-. Push submit.|Error message|
+|81| Password valid input length|Type 12345678910Abc. . Push submit.|No error message|
+|82| Password valid input length|Type 12345678910Abc_. Push submit.|No error message|
+|83| Password valid input length|Type 12345678910Abc%. Push submit.|No error message|
+|84| Password valid input length|Type 12345678910Abc♣. Push submit.|No error message|
+
 
 
