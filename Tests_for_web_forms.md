@@ -84,8 +84,15 @@
 |80| Password invalid input length|Type 123456789012345678901234567890Ab-. Push submit.|Error message|
 |81| Password valid input length|Type 12345678910Abc. . Push submit.|No error message|
 |82| Password valid input length|Type 12345678910Abc_. Push submit.|No error message|
-|83| Password valid input length|Type 12345678910Abc%. Push submit.|No error message|
-|84| Password valid input length|Type 12345678910Abc♣. Push submit.|No error message|
-|81| Refresh page check|All fields filled in. Do not push submit button. Refresh page|Data remained in the fields|
-
+|83| Password valid input length|Type 12345678910Abc%. Push submit.|Error message|
+|84| Password valid input length|Type 12345678910Abc♣. Push submit.|Error message|
+|85| Password copy|Type anything in the field. Copy data you typed.|Can not copy data in the field|
+|86| Password valid input paste|Paste any data in the field.|User is enable to paste data|
+|87| Refresh page check|All fields filled in. Do not push submit button. Refresh page|Data remained in the fields|
+|88| Error messages|Type invalid data in all fields. Push submit button.|One error message is displayed at a time for the first field with invalid data|
+|89| Error messages|Correct data in the first field to meet requirements. Push submit button.|Error message is displayed for the second field with invalid data|
+|90| Error messages|Type invalid data in Name field. Push submit button.|Error message. No data erased in the field|
+|91| Error messages|Type invalid data in Surname field. Push submit button.|Error message. No data erased in the field|
+|92| Error messages|Type invalid data in Email field. Push submit button.|Error message. No data erased in the field|
+|93| Error messages|Type invalid data in Password field. Push submit button.|Error message. No data erased in the field|
 
