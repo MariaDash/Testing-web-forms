@@ -86,6 +86,6 @@
 |82| Password valid input length|Type 12345678910Abc_. Push submit.|No error message|
 |83| Password valid input length|Type 12345678910Abc%. Push submit.|No error message|
 |84| Password valid input length|Type 12345678910Abc♣. Push submit.|No error message|
-
+|81| Refresh page check|All fields filled in. Do not push submit button. Refresh page|Data remained in the fields|
 
 
