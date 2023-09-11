@@ -21,7 +21,7 @@
 |17| [Name] field invalid input space after [Name] field. Push [Submit] button.|Type Masha D |Error message|
 |18| [Name] field invalid input sp.ch.|Type 'Masha--D'. Push [Submit] button. |Error message|
 |19| [Name] field valid input placeholder|Left field empty. Push [Submit] button.|Placeholder title displayed. No sp.ch. at the end|
-|20| [Name] field invalid input language|Type 'Masш'a. Push [Submit] button.|Error message|
+|20| [Name] field invalid input language|Type 'Masшa'. Push [Submit] button.|Error message|
 |21| [Name] field invalid input |Left empty. Push [Submit] button.|Error message with red background|
 |22|Navigation with Tab button|Click on the field. Push Tab|Moving mouse pointer to next line down|
 |23|Navigation with Shift+Tab buttons|Click on the field. Push Shift+Tab combination|Moving mouse pointer to the line up|
